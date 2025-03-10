@@ -1,0 +1,49 @@
+{
+  "manifest_version": 3,
+  
+  "name": "Hikari",
+  "version": "1.0",
+  "description": "Real-time Japanese speech that works",
+  
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "128": "icon128.png"
+  },
+  
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "webNavigation"
+  ],
+  
+  "host_permissions": [
+    "<all_urls>",
+    "https://translate.google.com/*",
+    "https://*.google.com/*",
+    "https://*.netflix.com/*"
+  ],
+  
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["tts.js"],
+      "run_at": "document_end",
+      "all_frames": true,
+      "match_about_blank": true
+    }
+  ],
+  
+  "background": {
+    "service_worker": "background.js"
+  },
+  
+  "web_accessible_resources": [{
+    "resources": ["*.js"],
+    "matches": ["<all_urls>"]
+  }],
+  
+  "action": {
+    "default_title": "Hikari"
+  }
+} 
