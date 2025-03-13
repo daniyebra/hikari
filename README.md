@@ -4,7 +4,7 @@
 
 ## Overview
 
-With Hikari, you can simply select Japanese text in any website to have it read out-loud in real-time, realistic Japanese voice. 
+With Hikari, you can simply select Japanese text in any website to have it read in real-time, realistic Japanese voice out-loud.
 Hikari is a powerful browser extension, perfect for language learners, travelers, or anyone interested in exploring the Japanese language interactively.
 
 - **Name**: Hikari

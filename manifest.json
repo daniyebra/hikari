@@ -11,12 +11,6 @@
     "128": "icon128.png"
   },
   
-  "permissions": [
-    "activeTab",
-    "scripting",
-    "webNavigation"
-  ],
-  
   "host_permissions": [
     "<all_urls>",
     "https://translate.google.com/*",
