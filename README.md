@@ -43,24 +43,24 @@ Hikari is a powerful browser extension, perfect for language learners, travelers
   Navigate to the folder where you cloned or extracted the Hikari extension
   Select the folder and click "Open" or "Select Folder"
 
-Verify Installation
+**Verify Installation**
 
 The Hikari extension should now appear in your list of installed extensions
 Look for the Hikari icon in your browser's toolbar (you may need to pin it from the extensions menu)
 
-Usage
+**Usage**
 
 Navigate to any webpage containing Japanese text
 Select the Japanese text you want to hear
 The audio will automatically play the selected text
 To stop playback, press Escape or clear your text selection
 
-Troubleshooting
+**Troubleshooting**
 
 If you don't hear audio, check that your browser's sound is enabled and at an audible volume
 Ensure you have allowed the extension the necessary permissions when prompted
 For very long texts, the extension may take a moment to process before playing
 If the extension stops working, try reloading the page or restarting your browser
 
-Privacy
+**Privacy**
 Hikari processes all text locally in your browser and does not send your selected text to any external servers.
