@@ -6,7 +6,6 @@
  */
 
 (function() {
-    // Only run on non-Netflix pages
     if (window.location.href.includes('netflix.com/watch')) return;
 
     // Message display function

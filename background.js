@@ -1,5 +1,5 @@
 // Background service worker for Japanese Hover TTS
-// This file can be used for handling extension-wide events and state management
+// This file handles extension-wide events and state management.
 // For example: managing TTS settings, handling messages from content scripts, etc.
 
 chrome.runtime.onInstalled.addListener(() => {

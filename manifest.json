@@ -14,8 +14,7 @@
   "host_permissions": [
     "<all_urls>",
     "https://translate.google.com/*",
-    "https://*.google.com/*",
-    "https://*.netflix.com/*"
+    "https://*.google.com/*"
   ],
   
   "content_scripts": [
