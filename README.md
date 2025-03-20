@@ -23,7 +23,11 @@ Hikari is a powerful browser extension, perfect for language learners, travelers
 
 ## Installation
 
-### Steps
+You can now download Hikari for Chrome from: https://chromewebstore.google.com/detail/hikari/hkmhpgkiiobihfokpkjiggejemmddgen
+
+Or, if you prefer:
+
+### Local Installation Steps
 1. **Clone or Download the Repository**
    - Clone this repository to your local machine:
      ```bash
